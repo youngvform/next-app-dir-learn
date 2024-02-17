@@ -1,6 +1,7 @@
 'use client';
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { useSession } from 'next-auth/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useDebouncedCallback } from 'use-debounce';
 
